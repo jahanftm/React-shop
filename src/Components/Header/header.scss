@@ -1,0 +1,42 @@
+@import "src/Assets/styles/variable";
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  background-color: $violet;
+  color: white;
+  padding: 0 40px;
+  align-items: center;
+  font-family: cursive, SansSerif;
+  font-size: 22px;
+}
+
+.wish-list {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  background: url("../../Assets/images/wishlist-icon-desktop.svg") no-repeat center center/25px;
+  position: relative;
+
+  .items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 18px;
+    height: 18px;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    color: white;
+    position: absolute;
+    font-size: 10px;
+    bottom: -8px;
+    right: -14px;
+    background-color: red;
+  }
+}
+
+.wish-wrapper {
+  position: absolute;
+  bottom: -100px;
+}

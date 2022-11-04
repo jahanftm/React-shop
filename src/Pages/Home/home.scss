@@ -1,0 +1,19 @@
+.home-body{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 80px;
+}
+
+.items{
+  display: flex;
+
+  .description{
+    padding: 0 40px;
+  }
+}
+
+.carousel-root{
+  display: block;
+  max-width: 500px;
+}
