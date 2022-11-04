@@ -20,7 +20,6 @@ const WishList = ()=>{
 
 
     const renderItems = items => {
-        console.log(items)
         return items.map( (item, i) => {
             return (
                 <>
@@ -36,6 +35,8 @@ const WishList = ()=>{
     return(
         <>
             <div className='wish-wrapper'>
+                {list.length === 0 && <div className='empty'>your wish list is empty :(</div>}
+
                 {renderItems(list)}
             </div>
         </>

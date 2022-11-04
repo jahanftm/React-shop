@@ -8,7 +8,7 @@
   padding: 10px;
   position: absolute;
   top: 38px;
-  border: 1px solid #e0abf5;
+  border: 1px solid $lightViolet;
   border-radius: 4px;
   min-height: 226px;
   overflow-y: scroll;
@@ -20,7 +20,7 @@
     margin-bottom: 10px;
     color: gray;
     font-size: 12px;
-    background-color: #e8d6f1;
+    background-color: #f3dffc;
     padding: 8px;
     border-radius: 4px;
 
@@ -31,3 +31,8 @@
     }
   }
 }
+.empty{
+  font-size: 14px;
+  color: $mediumViolet;
+}
+
